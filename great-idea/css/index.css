@@ -54,7 +54,10 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,59 +68,180 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-/*header styling*/
+/*nav styling*/
 
 header nav{
-	width: 100%;
-	background-color: pink;
+	width: 90%;
+	/*position: fixed;*/
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
+	margin: 0 65px;
 
 }
 nav .links{
 	display: flex;
-	border: solid;
-	width: 50%;
-	justify-content: space-around;
+	width: 85%;
 	margin: 0 150px;
+	padding: 10px;
 	
 }
 
 nav .logo{
-	border: solid;
 	display: flex;
-	margin: 0 10px;
-	width: 50%;
-	
+	width: 150px;
+	/*padding: 5px;*/
 }
 
 nav a{
 	color: grey;
 	text-decoration:none;
 	letter-spacing:3px;
-	padding: 0 2%;
+	padding: 0 3%;
   }
 
-#innovation .container1{
+/*Styling main header/img/button*/
+#innovation {
+	width: 50%; /*change back to 90*/
+	display: flex;
+	justify-content: space-between;
+	margin-left: 180px;
+	margin-right: 300px;
+	
+}
+
+#innovation h1 {
+	font-size: 55px;
+	text-align: center;
+	width: 100px;
+	height: 200px;
+	margin: 50%;
+	padding: 60px;
+
+}
+
+.img-heading {
+	display: flex;
+	width: 245px;
+	/*width:  120px;
+	height: 400px;
+	padding: 20px;*/
+
+	/*margin: 2%;*/
+}
+
+.button {
+	border: solid;
+	width: 70px;
+	margin: 30%;
+	text-align: center;
+
+
+}
+
+#Features .container{
+	  display: flex;
+	justify-content: space-around;
+	  width: 90%;
+	  margin: 0 65px;
+	  
+
+  }
+
+.img1 {
+	width: 75%;
+	margin: 0 200px;
+}
+ 
+#features{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 90%;
+	margin: 0 65px;
+
+}
+
+.container p{
+	width: 330px;
+	height: 123px;
+	padding: 2px;
+}
+
+.container h3{
+	display: flex;
+	width: 40%;
+
+}
+
+#services .section{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 90%;
+	margin: 0 65px;
+	border: solid;
+
+}
+.container h2 {
+	display: flex;
+	width: 75%;
+	
+}
+
+#services p{
+	width: 90%;
+
+}
+
+#address .add {
+	display: flex;
+	border: solid;
+}
+
+/*Styling page 2*/
+
+.services-header-img{
+	border: solid;
+	width: 100%;
+	margin: 5px;
+}
+
+#services .ser{
+	display: flex;
+	border: solid;
+	flex-direction: column;
+	width: 80%;
+	margin: 0 180px;
+	justify-content: center;
+}
+
+.ser h2{
 	display: flex; 
 	border: solid;
-	justify-content: space-around;
-}
-.container1 h1{
-	display: flex;
-	border: solid;
+	font-size: 35px;
+	width: 30%;
+	padding: 2%;
 }
 
-section .circleimg{
+.ser p{
 	display: flex;
-	border: solid;
+	 border: solid;
+	 width: 15%;
+	 
 }
 
-  #Features .container{
-	  display: flex;
-	  border: solid;
-	  justify-content: space-around;
-  }
+#section3{
+
+	border: 2px solid red;
+	display: flex;
+	flex-direction: column;
 
  
+}
+
+.box p{
+	border: solid;
+	
+}
+
